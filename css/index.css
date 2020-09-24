@@ -1,0 +1,49 @@
+body {
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  color: #333;
+}
+
+.topBar {
+  /* 与body一样宽 */
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+}
+
+.container {
+  width: 1226px;
+  height: 100%;
+  /* 居中显示 */
+  margin:0 auto;
+}
+
+.topBar .topBar-list {
+float: left;
+}
+
+.topBar .shop {
+  float: right;
+  width: 120px;
+  margin-left: 15px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #424242;
+}
+
+.topBar .login {
+    float: right;
+}
+
+.topBar a {
+  color: #b0b0b0;
+  font-size: 12px;
+  /* a 标签行内元素转换为行内块才能设置高度 */
+  display: inline-block;
+  line-height: 40px;
+}
+
+.topBar span {
+  color: #424242;
+  margin:0 .5em;
+}
